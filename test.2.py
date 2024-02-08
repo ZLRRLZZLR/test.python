@@ -1,14 +1,3 @@
-M = input()
-N = input()
-op = input()
-if op=="+":
-    print(eval(M)+eval(N))
-elif op=="-":
-    print(eval(M)+eval(N))
-elif op=="*":
-    print(eval(M)*eval(N))
-else:
-    print(eval(M)/eval(N))
-
-s = input()
-print("{:.2f}".format(eval(s)))
+S = input()
+S2 = S.split("-")
+print(S2[0]+"+"+S2[-1])
